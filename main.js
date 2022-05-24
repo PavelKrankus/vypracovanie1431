@@ -21,6 +21,9 @@ function calc() {
     case "mul":
       mul();
       break;
+    case "mod":
+      mod();
+      break;
   }
   function add() {
     calculate = a + b;
@@ -33,6 +36,9 @@ function calc() {
   }
   function div() {
     calculate = a / b;
+  }
+  function mod() {
+    calculate = a % b;
   }
 
   document.querySelector("#result").innerHTML = calculate;
