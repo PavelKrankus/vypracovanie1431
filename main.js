@@ -21,6 +21,7 @@ function calc() {
     case "mul":
       mul();
       break;
+      
     case "mod":
       mod();
       break;
